@@ -1,29 +1,29 @@
 *{
     font-family: 'roboto', sans-serif ;
-    margin: 10px 60px 60px ;
+    margin: 5px 30px 30px ;
 }
 .header_boxj{
     margin: 0;
     background: black;
-    padding: 20px 30px;
+    padding: 20px 25px;
     color: white;
     border-radius: 15px;
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bolder;
 }
 .icon_le{
     color: hsl(1deg, 84%, 67%);
-    font-size: 40px;
-    width: 30px;
-    margin-left: 5px;
+    font-size: 30px;
+    width: 10px;
+    margin-left: 4px;
     padding: 0px;
 }
 .header{
+    width: 1200px;
+    height: 100px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .icon{
     margin-left: auto;
@@ -32,10 +32,12 @@
 }
 .d2{
     display: flex;
+    width: fit-content;
+    height:fit-content;
 }
 .d2_anh{
-    width: 800px;
-    height:700px;
+    width: 500px;
+    height:500px;
     margin-right: 100px;
     margin-left: 0px;
 }
@@ -43,11 +45,11 @@
     margin-right: 40px;
 }
 .d2_text--h{
-    padding: 10px 50px;
-    font-size: 25px;
+    padding: 10px 30px;
+    font-size: 20px;
 }
 .d2_text--name{
-    font-size: 45px;
+    font-size: 30px;
 }
 .d2_text--num{
     display: flex;
@@ -64,41 +66,42 @@
 }
 .d2_text--num--boxn{
     margin-right: 70px;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bolder;
     color: hsl(1deg, 84%, 67%);
     text-align: left;
 }
 .d2_text--num--boxt{
     margin-right: 50px;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 10px;
     width: auto;
 }
 .d3{
-    width: 165px;
-    font-size: 30px;
+    width: 110px;
+    font-size: 20px;
     box-shadow: 0px 4px hsl(1deg, 84%, 67%) ;  
     margin-bottom: 20px;
     font-weight: bolder;
 }
 .d4{
-    font-size: 35px;
+    font-size: 25px;
     color: gray;
     letter-spacing: 1px;
     
 }
 .d5{
-    width: 300px;
-    margin-left: 40%;
-    font-size: 25px;
+    width: 200px;
+    margin-left: 150px;
+    font-size: 15px;
     font-weight: bolder;
     margin-top: 70px;
+    margin-left: 550px;
     margin-bottom: 100px;
     letter-spacing: 1.5px;
     color: hsl(1deg, 84%, 67%);
     padding: 20px;
-    border: 4px solid hsl(1deg, 84%, 67%);
+    border: 2px solid hsl(1deg, 84%, 67%);
     border-radius: 40px;
     align-items: center;
     justify-content: center;
@@ -106,67 +109,69 @@
 }
 .d6{
     display: flex;
+
 }
 .d6_1{
-    margin: 0px 100px 0px 0px;
+    margin: 0px;
+    margin-right: 70px;
+    width: 600px;
+
 }
 .d6_1--h{
-    width: 205px;
-    font-size: 30px;
-    box-shadow: 0px 4px hsl(1deg, 84%, 67%) ;  
+    width: 135px;
+    font-size: 20px;
+    box-shadow: 0px 3px hsl(1deg, 84%, 67%) ;  
     margin-bottom: 20px;
     font-weight: bolder;
     margin: 0px;
 }
 .d6_2{
     margin: 0px 0px 0px 0px;
+    width: fit-content;
 }
 .d6_2--h{
-    width: 225px;
-    font-size: 30px;
-    box-shadow: 0px 4px hsl(1deg, 84%, 67%) ;  
+    width: 150px;
+    font-size: 20px;
+    box-shadow: 0px 3px hsl(1deg, 84%, 67%) ;  
     margin-bottom: 20px;
     font-weight: bolder;
     margin: 0px 0px;
 
 }
 .content1{
-    width: 800px;
+    width: 500px;
     margin-top: 10px;
     display: grid;
     grid-template-columns: auto auto auto auto ;
     grid-template-rows: auto auto auto;
     text-align: center;
-    grid-gap:10px 10px;
+    grid-gap:2px 2px;
     margin: 30px 0px;
-    grid-position: left;
-    
 }
 .content2{
-    width: 800px;
+    width: 500px;
     margin-top: 10px;
     display: grid;
     grid-template-columns: auto auto auto  ;
     grid-template-rows: auto auto ;
     text-align: center;
-    grid-gap:10px 10px;
+    grid-gap:2px 2px;
     margin: 30px 0px;
     
 }
 .d6--content--delt{
     width: fit-content;
-    font-size: 20px;
     color: gray;
     border: 2px solid rgb(146, 142, 142) ;
     margin-right: 10px;
-    border-radius: 40px;
+    border-radius: 50px;
     padding: 10px 20px 10px 20px;
     margin-left: 0px;
 }
 .d7{
-    width: 300px;
-    font-size: 30px;
-    box-shadow: 0px 4px hsl(1deg, 84%, 67%) ;  
+    width: 200px;
+    font-size: 20px;
+    box-shadow: 0px 3px hsl(1deg, 84%, 67%) ;  
     margin-bottom: 50px;
     font-weight: bolder;
 }
@@ -177,27 +182,27 @@
 }
 
 .d8--2019{
-    font-size: 25px;
-    font-weight: bolder;
+    font-size: 20px;
+    font-weight: bold;
     margin: 0px 0px 30px;
 }
 .d8--2{
-    font-size: 45px;
+    font-size: 35px;
     margin: 0px 0px 30px;
     color: gray;
 }
 .d8--3{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bolder;
     margin: 0px 0px 60px;
 }
 .d8--cont{
-    font-size: 25px;
+    font-size: 18px;
     color: gray;
     margin: 0px 0px 30px;
 }
 .d8--list{
-    font-size: 25px;
+    font-size: 18px;
     color: gray;
     margin: 0px 0px 30px;
     padding: 0px;
@@ -206,9 +211,9 @@
     margin-left: 10px;
 }
 .d9{
-    width: 240px;
-    font-size: 30px;
-    box-shadow: 0px 4px hsl(1deg, 84%, 67%) ;  
+    width: 160px;
+    font-size: 20px;
+    box-shadow: 0px 3px hsl(1deg, 84%, 67%) ;  
     margin-bottom: 40px;
     font-weight: bolder;
 }
@@ -223,24 +228,23 @@
     margin-bottom: 80px;
 }
 .d10_cont{
-    width: 40%;
-    margin-right: 40px;
+    width: 600px;
+    margin-right: 100px;
 }
 .d10_cont--h{
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
     margin: 70px 0px 50px;
 }
 .d10_cont--delt{
-    font-size:25px;
+    font-size:18px;
     color: gray;
     margin: 0px 0px 50px;
 }
 .d10_cont--butt{
     width: fit-content;
-    font-size: 25px;
     color: hsl(1deg, 84%, 67%);
-    border: 3px solid hsl(1deg, 84%, 67%);
+    border: 1.5px solid hsl(1deg, 84%, 67%);
     border-radius:30px;
     margin: 70px 0px 50px;
     padding: 10px 20px;
@@ -248,16 +252,16 @@
 
 }
 .image{
-    width: 600px;
-    height:500px;
+    width: 400px;
+    height:420px;
     border: 2px white;
     border-radius: 20px ;
-    margin:25px 0px 0px 90px;
+    margin:3px 10px 0px 50px;
 }
 .d11{
     background-color: black;
     color: white;
-    height: 800px;
+    height: 700px;
     text-align: center;
 }
 .d11--S{
@@ -265,29 +269,28 @@
     color: gray;
     padding-top: 120px;
     margin-bottom:70px;
-    font-size: 40px;
+    font-size: 25px;
 } 
 .d11--R{
-    font-size: 80px;
-    font-weight:bolder;
+    font-size:  45px;
+    font-weight:bold;
     margin-bottom: 20px;
     letter-spacing: 2px;
 }
 .d11--F{
     margin-bottom: 80px;
     letter-spacing: 1.5px;
-    font-size:25px; 
 }
 .d11--L{
-    border: 2px solid hsl(1deg, 84%, 67%);
+    border: 1px solid hsl(1deg, 84%, 67%);
     justify-content: center;
     width: 130px ;
     border-radius: 70px;
-    margin-left: 45%;
+    margin-left: 593px;
     margin-right: 600px;
     color:hsl(1deg, 84%, 67%);
     padding: 14px;
-    font-size: 16px;
+    font-size: 13px;
     letter-spacing: 3px;
     margin-bottom: 140px;
     font-weight: bold;
@@ -295,5 +298,4 @@
 .d11--Sp{
     color: gray;
     letter-spacing: 1.5px;
-    font-size: 20px;
 }
