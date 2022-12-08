@@ -1,11 +1,16 @@
 *{
+    
+}
+.bodii{
+    width: 90vw;
+    height: 120vw;
     font-family: 'roboto', sans-serif ;
-    margin: 5px 30px 30px ;
+    margin: 20px 70px  ;
 }
 .header_boxj{
     margin: 0;
     background: black;
-    padding: 20px 25px;
+    padding: 10px 20px;
     color: white;
     border-radius: 15px;
     text-align: center;
@@ -15,20 +20,20 @@
 .icon_le{
     color: hsl(1deg, 84%, 67%);
     font-size: 30px;
-    width: 10px;
-    margin-left: 4px;
+    width: 0px;
+    margin-left: 40px;
     padding: 0px;
 }
 .header{
-    width: 1200px;
-    height: 100px;
+    width: 100%;
+    height: 3.5%;
     display: flex;
-    margin-bottom: 20px;
+    padding: 0px;
+    margin: 10px 0px 30px 0px;
 }
 .icon{
-    margin-left: auto;
     display: flex;
-    margin-right: 0px;
+    margin: 0px 30px 10px 80%;
 }
 .d2{
     display: flex;
@@ -36,10 +41,9 @@
     height:fit-content;
 }
 .d2_anh{
-    width: 500px;
-    height:500px;
+    width: 40%;
     margin-right: 100px;
-    margin-left: 0px;
+    margin-left:  0px;
 }
 .d2_text{
     margin-right: 40px;
@@ -50,12 +54,14 @@
 }
 .d2_text--name{
     font-size: 30px;
+    padding: 0px 30px;
+    
 }
 .d2_text--num{
     display: flex;
     margin-top: 30px;
     margin-right: 70px;
-    padding: 0px;
+    padding: 0px 15px;
 }
 .block{
     margin: 0px;
@@ -82,6 +88,7 @@
     font-size: 20px;
     box-shadow: 0px 4px hsl(1deg, 84%, 67%) ;  
     margin-bottom: 20px;
+    margin-top: 60px;
     font-weight: bolder;
 }
 .d4{
@@ -91,30 +98,24 @@
     
 }
 .d5{
-    width: 200px;
-    margin-left: 150px;
+    width: fit-content;
     font-size: 15px;
     font-weight: bolder;
-    margin-top: 70px;
-    margin-left: 550px;
-    margin-bottom: 100px;
+    margin:70px auto ;
     letter-spacing: 1.5px;
     color: hsl(1deg, 84%, 67%);
     padding: 20px;
     border: 2px solid hsl(1deg, 84%, 67%);
-    border-radius: 40px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    border-radius: 50px;
 }
 .d6{
+    width: 100%;
     display: flex;
-
 }
 .d6_1{
-    margin: 0px;
-    margin-right: 70px;
-    width: 600px;
+    width: 37%;
+    margin: 0px 20px 0px 0px;
+    padding-right:170px ;
 
 }
 .d6_1--h{
@@ -126,38 +127,33 @@
     margin: 0px;
 }
 .d6_2{
-    margin: 0px 0px 0px 0px;
-    width: fit-content;
+    margin: 0px;
+    width: 40%;
 }
 .d6_2--h{
     width: 150px;
     font-size: 20px;
     box-shadow: 0px 3px hsl(1deg, 84%, 67%) ;  
-    margin-bottom: 20px;
     font-weight: bolder;
     margin: 0px 0px;
 
 }
-.content1{
-    width: 500px;
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: auto auto auto auto ;
-    grid-template-rows: auto auto auto;
+.d6--content1{
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     grid-gap:2px 2px;
     margin: 30px 0px;
 }
-.content2{
-    width: 500px;
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: auto auto auto  ;
-    grid-template-rows: auto auto ;
+.d6--content2{
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     grid-gap:2px 2px;
     margin: 30px 0px;
-    
+    padding-right: 20px;
 }
 .d6--content--delt{
     width: fit-content;
@@ -180,7 +176,9 @@
     margin: 0;
     margin-bottom: 100px;
 }
-
+.d8_ha1{
+    margin-right: 20px;
+}
 .d8--2019{
     font-size: 20px;
     font-weight: bold;
@@ -219,7 +217,7 @@
 }
 .d10{
     background-color: #f6f8fa;
-    width: auto;
+    width: 100%;
     height: fit-content;
     display: flex;
     background-position: bottom ;
@@ -228,8 +226,9 @@
     margin-bottom: 80px;
 }
 .d10_cont{
-    width: 600px;
+    width: 45%;
     margin-right: 100px;
+    margin-left: 80px;
 }
 .d10_cont--h{
     font-size: 25px;
@@ -243,8 +242,10 @@
 }
 .d10_cont--butt{
     width: fit-content;
+    font-size: 16px;
+    font-weight: lighter;
     color: hsl(1deg, 84%, 67%);
-    border: 1.5px solid hsl(1deg, 84%, 67%);
+    border: 1px solid hsl(1deg, 84%, 67%);
     border-radius:30px;
     margin: 70px 0px 50px;
     padding: 10px 20px;
@@ -259,43 +260,44 @@
     margin:3px 10px 0px 50px;
 }
 .d11{
+    width: 100%;
+    height: 25%;
     background-color: black;
     color: white;
-    height: 700px;
     text-align: center;
+    padding-top: 120px;
 }
 .d11--S{
     font-weight:bolder;
     color: gray;
-    padding-top: 120px;
-    margin-bottom:70px;
+    margin-bottom:60px;
     font-size: 25px;
 } 
 .d11--R{
     font-size:  45px;
     font-weight:bold;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     letter-spacing: 2px;
 }
 .d11--F{
-    margin-bottom: 80px;
+    margin-bottom: 70px;
     letter-spacing: 1.5px;
 }
 .d11--L{
     border: 1px solid hsl(1deg, 84%, 67%);
     justify-content: center;
-    width: 130px ;
+    width: fit-content ;
     border-radius: 70px;
-    margin-left: 593px;
-    margin-right: 600px;
+    margin: auto;;
     color:hsl(1deg, 84%, 67%);
-    padding: 14px;
+    padding: 14px 20px;
     font-size: 13px;
     letter-spacing: 3px;
-    margin-bottom: 140px;
     font-weight: bold;
 }
 .d11--Sp{
     color: gray;
     letter-spacing: 1.5px;
+    margin-top: 100px ;
+    margin-bottom: 30px;
 }
