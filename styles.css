@@ -1,7 +1,7 @@
 *{
     
 }
-.bodii{
+body{
     width: 90vw;
     height: 120vw;
     font-family: 'roboto', sans-serif ;
@@ -10,7 +10,7 @@
 .header_boxj{
     margin: 0;
     background: black;
-    padding: 10px 20px;
+    padding: 18px 20px;
     color: white;
     border-radius: 15px;
     text-align: center;
@@ -30,6 +30,7 @@
     display: flex;
     padding: 0px;
     margin: 10px 0px 30px 0px;
+    align-items: baseline;
 }
 .icon{
     display: flex;
